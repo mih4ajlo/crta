@@ -19,6 +19,7 @@ h1, h2 {
 	background: #fff;
 	box-shadow: 1px 1px 50px #ddd;
 	padding-bottom: 20px;
+	z-index: 1;
 }
 .header .logo img {
 	max-height: 300px;
@@ -32,6 +33,9 @@ h1, h2 {
 }
 footer {
 	padding-bottom: 40px;
+}
+footer img {
+	margin: 0 auto;
 }
 
 

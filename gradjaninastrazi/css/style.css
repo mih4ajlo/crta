@@ -17,7 +17,8 @@ h1, h2 {
 	position: fixed;
 	text-align: center;
 	background: #fff;
-	box-shadow: 1px 1px 50px #ddd;
+	border-bottom: 2px solid #ddd;
+	/*box-shadow: 1px 1px 50px #ccc;*/
 	padding-bottom: 20px;
 	z-index: 1;
 }

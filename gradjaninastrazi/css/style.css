@@ -26,6 +26,26 @@ h1, h2 {
 	max-height: 300px;
 	margin: 0 auto;
 }
+.header.hasScroll img {
+	 -webkit-animation: visinaLogoa 0.5s forwards;
+	 animation: visinaLogoa 0.5s forwards;
+}
+@-webkit-keyframes visinaLogoa {
+	0% {
+		max-height: 300px;
+	}
+	100% {
+		max-height: 200px;
+	}
+}
+@keyframes visinaLogoa {
+	0% {
+		max-height: 300px;
+	}
+	100% {
+		max-height: 200px;
+	}
+}
 .main-content {
 	color: #333;
 	margin-top: 300px;

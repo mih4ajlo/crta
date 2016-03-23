@@ -18,7 +18,17 @@
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
 	        
 	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	    <script type="text/javascript" src="js/script.js"></script>
+        <script>
+            var $document = $(document);
+            $document.scroll(function() {
+                if ($document.scrollTop() >= 80) {
+                    $(".header").addClass("hasScroll");
+                }
+                if ($document.scrollTop() < 80) {
+                    $(".header").removeClass("hasScroll");
+                }
+            });
+        </script>
 	</head>
 	<body>
 		<section class="container-fluid">

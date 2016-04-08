@@ -12,6 +12,7 @@ h1, h2, p {
 	margin: 0;
 }
 header {
+	width: 320px;
 	height: 100%;
 	background: #333;
 	/*#00417a*/
@@ -58,6 +59,7 @@ header {
 }
 
 .main-content {
+	margin-left: 320px;
 }
 .vest-wrap {
 	background: #fff;
@@ -129,4 +131,40 @@ footer img {
 }
 .counter-subtitle {
 	font-size: 15.5px;
+}
+
+@media screen and (max-width: 992px) {
+	.header {
+		width: 270px;
+	}
+	.main-content {
+		margin-left: 270px;
+	}
+}
+@media screen and (max-width: 920px) {
+	.header {
+		width: 250px;
+	}
+	.main-content {
+		margin-left: 250px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.header {
+		width: 100%;
+		height: auto;
+		position: relative !important;
+		padding-bottom: 120px;
+	}
+	.pocetna-logo {
+	    padding-top: 40px;
+	    display: block;
+	    max-width: 350px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    margin: 0 auto;
+	}
+	.main-content {
+		margin-left: 0px;
+	}
 }

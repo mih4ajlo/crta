@@ -1,0 +1,148 @@
+.boldSection {
+    overflow: hidden;
+    width: 550px;
+    position: absolute;
+    right: 80px;
+}
+.boldRowInner {
+    position: relative;
+    overflow: hidden;
+}
+.counting-header p {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "DinPro";
+    margin-bottom: 0px !important;
+}
+.btSubTitle {
+}
+
+
+
+
+.btDarkSkin,
+.btLightSkin .btDarkSkin,
+.port {
+    /* color: #fff; */
+    /*background-color: #111;*/
+}
+/* Counter */
+/* Counter */
+
+.btCounterHolder {
+font-size: 20px;
+line-height: 50px;
+height: 50px;
+/*font-family: "Roboto";*/
+/*font-weight: 700;*/
+/*letter-spacing: -2px;*/
+overflow: hidden;
+}
+
+.btCounterHolder .btCounter {
+display: block;
+/*height: 50px;*/
+overflow: hidden;
+}
+
+.btCounterHolder span.onedigit {
+display: inline-block;
+/*height: 70px;*/
+-webkit-transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+transition: all 1s ease 0s;
+}
+
+.btCounterHolder span.onedigit span {
+display: block;
+position: relative;
+/*height: 50px;*/
+}
+
+.btLightSkin .btCounterHolder,
+.btDarkSkin .btLightSkin .btCounterHolder {
+color: #222;
+}
+
+.btDarkSkin .btCounterHolder,
+.btLightSkin .btDarkSkin .btCounterHolder {
+color: #fff;
+}
+
+.btCounterHolder .btCountdownHolder {
+overflow: hidden;
+/*color:rgb(51, 122, 183);*/
+/*color: #1a4175;*/
+}
+
+.btCounterHolder .btCountdownHolder > span {
+vertical-align: top;
+display: inline-block;
+}
+
+.btCounterHolder .btCountdownHolder > span > span {
+display: inline-block;
+}
+
+.btCounterHolder .btCountdownHolder > span > span > span {
+display: block;
+-webkit-transition: transform 0ms ease-out;
+-moz-transition: transform 0ms ease-out;
+transition: transform 0ms ease-out;
+-webkit-transform: translateY(-50px);
+-moz-transform: translateY(-50px);
+-ms-transform: translateY(-50px);
+transform: translateY(-50px);
+}
+
+
+.btCounterHolder .btCountdownHolder .countdown_anim {
+-webkit-transition: transform 200ms ease-out;
+-moz-transition: transform 200ms ease-out;
+transition: transform 200ms ease-out;
+-webkit-transform: translateY(0);
+-moz-transform: translateY(0);
+-ms-transform: translateY(0);
+transform: translateY(0);
+}
+
+.btCounterHolder.btCounterLargeSize {
+font-size: 27px;
+font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+    .boldSection {
+        width: 500px;
+        right: 60px;
+    }
+    .countring-header p {
+        font-size: 24px;
+    }
+    .btCounterHolder.btCounterLargeSize {
+        font-size: 24px;
+    }
+    .btCounterHolder .btCountdownHolder .days_text,
+    .btCounterHolder .btCountdownHolder .hours_text,
+    .btCounterHolder .btCountdownHolder .minutes_text,
+    .btCounterHolder .btCountdownHolder .seconds_text {
+        font-size: 12px;
+        left: 56%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .counting-info {
+        display: none;
+    }
+    .boldSection {
+        width: 220px;
+        right: 0px;
+        top: 0px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .boldSection {
+        display: none;
+    }
+}
